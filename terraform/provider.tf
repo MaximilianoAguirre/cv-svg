@@ -5,7 +5,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Project     = "cv"
+      Project     = "cv-svg"
       Environment = "devuse1"
       Region      = "use1"
       State       = "Terraform managed"

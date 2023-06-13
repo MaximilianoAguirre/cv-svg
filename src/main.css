@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    background-color: black;
+}
+
+#photo-inner {
+    stroke: #00d8ff;
+    stroke-width: 50;
+}
+
+.react {
+    fill: none;
+    stroke: #00d8ff;
+    stroke-width: 90;
+    stroke-miterlimit: 10
+}
+
+.electron {
+    fill: white;
+    stroke: #00d8ff;
+    stroke-width: 10;
+}
+
+.electron-parent:hover {
+    scale: 1.3;
+}
+
+.electron-parent {
+    transition: scale 0.5s ease;
+}
+
+.aws0 {
+    fill: #252f3e
+}
+
+.aws1 {
+    fill: #f90
+}
